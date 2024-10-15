@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+h1 {
+    text-align: center;
+}
+
+.flex__parent{
+    display: flex;
+    margin: 16px;
+    flex-wrap: wrap;
+    background-color: bisque;
+}
+
+.flex__parent h4{
+    flex: 1 0 100%;
+}
+
+.flex__child {
+    height: 150px;
+    width: 150px;
+}
+
+.red{
+    background-color: #ff0000;
+}
+
+.blue{
+    background-color: blue;
+
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.flex__row--reverse {
+   
+    flex-direction:row-reverse;
+}
+
+.flex__justify-center {
+    justify-content: center;
+}
+
+.flex__justify-space-between {
+    justify-content: space-between;
+
+}
+
+.flex__justify-space-evenly {
+    justify-content: space-evenly;
+
+}
+
+.flex__grow .red {
+    flex-grow: 1;
+}
+
+.flex__grow .yellow {
+    flex-grow: 1;
+}
+
+.shrink {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex__shrink .flex__child {
+    flex: 0 0 300px;
+}
+
+
+.flex__shrink .red {
+    flex-shrink: 2;
+}
+
+.flex__shrink .purple {
+    flex-shrink: 1;
+}
+.flex__shrink .green {
+    flex-shrink: 2;
+}
+
+.flex__order .yellow {
+    order: 3;
+
+}
+
+.flex__order .red {
+    order: 2;
+
+}
+
+.flex__order .green {
+    order: 5;
+
+}
+
+.flex__order .blue {
+    order: 4;
+
+}
+
+.flex__order .purple {
+    order: 1;
+
+}
+    
